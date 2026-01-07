@@ -1,0 +1,164 @@
+{
+  "apple_i": {
+    "id": "apple_i",
+    "name": "Apple I",
+    "brandId": "apple",
+    "year": 1976,
+    "price": 666,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Apple1.jpg/320px-Apple1.jpg",
+    "stats": { "cost": 500, "profit": 166, "reliability": 80, "popularity": 75, "production": 0 }
+  },
+  "apple_ii": {
+    "id": "apple_ii",
+    "name": "Apple II",
+    "brandId": "apple",
+    "year": 1977,
+    "price": 1298,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Apple_II.jpg/320px-Apple_II.jpg",
+    "stats": { "cost": 800, "profit": 498, "reliability": 90, "popularity": 85, "production": 0 }
+  },
+  "atari_2600": {
+    "id": "atari_2600",
+    "name": "Atari 2600",
+    "brandId": "atari",
+    "year": 1977,
+    "price": 199,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Atari-2600-Wood-4Sw-Silver.jpg/320px-Atari-2600-Wood-4Sw-Silver.jpg",
+    "stats": { "cost": 100, "profit": 99, "reliability": 90, "popularity": 90, "production": 0 }
+  },
+  "atari_800": {
+    "id": "atari_800",
+    "name": "Atari 800",
+    "brandId": "atari",
+    "year": 1979,
+    "price": 899,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Atari_800.jpg/320px-Atari_800.jpg",
+    "stats": { "cost": 500, "profit": 399, "reliability": 85, "popularity": 85, "production": 0 }
+  },
+  "commodore_pet": {
+    "id": "commodore_pet",
+    "name": "Commodore PET",
+    "brandId": "commodore",
+    "year": 1977,
+    "price": 795,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Commodore_PET_2001.jpg/320px-Commodore_PET_2001.jpg",
+    "stats": { "cost": 500, "profit": 295, "reliability": 85, "popularity": 80, "production": 0 }
+  },
+  "commodore_vic20": {
+    "id": "commodore_vic20",
+    "name": "Commodore VIC-20",
+    "brandId": "commodore",
+    "year": 1980,
+    "price": 299,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Commodore_VIC-20.jpg/320px-Commodore_VIC-20.jpg",
+    "stats": { "cost": 150, "profit": 149, "reliability": 80, "popularity": 85, "production": 0 }
+  },
+  "exidy_sorcerer": {
+    "id": "exidy_sorcerer",
+    "name": "Exidy Sorcerer",
+    "brandId": "exidy",
+    "year": 1978,
+    "price": 895,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Exidy_Sorcerer.jpg/320px-Exidy_Sorcerer.jpg",
+    "stats": { "cost": 500, "profit": 395, "reliability": 80, "popularity": 70, "production": 0 }
+  },
+  "heathkit_h8": {
+    "id": "heathkit_h8",
+    "name": "Heathkit H8",
+    "brandId": "heathkit",
+    "year": 1977,
+    "price": 395,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Heathkit_H8.jpg/320px-Heathkit_H8.jpg",
+    "stats": { "cost": 200, "profit": 195, "reliability": 75, "popularity": 65, "production": 0 }
+  },
+  "magnavox_odyssey2": {
+    "id": "magnavox_odyssey2",
+    "name": "Magnavox Odyssey²",
+    "brandId": "magnavox",
+    "year": 1978,
+    "price": 199,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Magnavox_Odyssey2.jpg/320px-Magnavox_Odyssey2.jpg",
+    "stats": { "cost": 100, "profit": 99, "reliability": 85, "popularity": 80, "production": 0 }
+  },
+  "altair_8800": {
+    "id": "altair_8800",
+    "name": "Altair 8800",
+    "brandId": "mits",
+    "year": 1975,
+    "price": 397,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Altair_8800_Computer.jpg/320px-Altair_8800_Computer.jpg",
+    "stats": { "cost": 250, "profit": 147, "reliability": 85, "popularity": 70, "production": 0 }
+  },
+  "challenger_1p": {
+    "id": "challenger_1p",
+    "name": "Challenger 1P",
+    "brandId": "ohio_scientific",
+    "year": 1977,
+    "price": 499,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Challenger_1P.jpg/320px-Challenger_1P.jpg",
+    "stats": { "cost": 300, "profit": 199, "reliability": 80, "popularity": 70, "production": 0 }
+  },
+  "processor_tech_sol20": {
+    "id": "processor_tech_sol20",
+    "name": "Sol-20",
+    "brandId": "processor_tech",
+    "year": 1977,
+    "price": 1995,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sol-20.jpg/320px-Sol-20.jpg",
+    "stats": { "cost": 1200, "profit": 795, "reliability": 85, "popularity": 70, "production": 0 }
+  },
+  "sinclair_zx80": {
+    "id": "sinclair_zx80",
+    "name": "Sinclair ZX80",
+    "brandId": "sinclair",
+    "year": 1980,
+    "price": 99,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sinclair_ZX80.jpg/320px-Sinclair_ZX80.jpg",
+    "stats": { "cost": 50, "profit": 49, "reliability": 70, "popularity": 75, "production": 0 }
+  },
+  "trs80_model_i": {
+    "id": "trs80_model_i",
+    "name": "TRS-80 Model I",
+    "brandId": "tandy",
+    "year": 1977,
+    "price": 599,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TRS-80_Model_I.jpg/320px-TRS-80_Model_I.jpg",
+    "stats": { "cost": 350, "profit": 249, "reliability": 85, "popularity": 80, "production": 0 }
+  },
+  "trs80_model_ii": {
+    "id": "trs80_model_ii",
+    "name": "TRS-80 Model II",
+    "brandId": "tandy",
+    "year": 1979,
+    "price": 1299,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TRS-80_Model_II.jpg/320px-TRS-80_Model_II.jpg",
+    "stats": { "cost": 800, "profit": 499, "reliability": 90, "popularity": 85, "production": 0 }
+  },
+  "ti_99_4": {
+    "id": "ti_99_4",
+    "name": "TI-99/4",
+    "brandId": "texas_instruments",
+    "year": 1979,
+    "price": 1150,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TI-99_4A.jpg/320px-TI-99_4A.jpg",
+    "stats": { "cost": 700, "profit": 450, "reliability": 80, "popularity": 75, "production": 0 }
+  },
+  "vector_1": {
+    "id": "vector_1",
+    "name": "Vector-1",
+    "brandId": "vector_graphic",
+    "year": 1977,
+    "price": 1295,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vector-1.jpg/320px-Vector-1.jpg",
+    "stats": { "cost": 800, "profit": 495, "reliability": 85, "popularity": 70, "production": 0 }
+  },
+  "ibm_5100": {
+    "id": "ibm_5100",
+    "name": "IBM 5100",
+    "brandId": "ibm",
+    "year": 1975,
+    "price": 8975,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/IBM_5100.jpg/320px-IBM_5100.jpg",
+    "stats": { "cost": 5000, "profit": 3975, "reliability": 95, "popularity": 70, "production": 0 }
+  }
+}

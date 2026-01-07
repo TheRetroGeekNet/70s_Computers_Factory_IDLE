@@ -1,0 +1,100 @@
+{
+  "id": "mits",
+  "name": "MITS",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/MITS_Logo.svg/320px-MITS_Logo.svg.png",
+  "description": "Pionnier des micro-ordinateurs avec l'Altair 8800. Cible les hobbyistes et les ingénieurs. Innovations constantes dans les années 1970.",
+  "machines": [
+    {
+      "id": "altair_8800",
+      "name": "Altair 8800",
+      "year": 1975,
+      "price": 397,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Altair_8800_Computer.jpg/320px-Altair_8800_Computer.jpg",
+      "stats": {
+        "cost": 250,
+        "profit": 147,
+        "reliability": 85,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1975-01",
+          "type": "historique",
+          "title": "Lancement de l'Altair 8800",
+          "description": "Premier ordinateur personnel en kit. Prix révolutionnaire de 397$. Demande explosive parmi les hobbyistes.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 1000 kits/mois (fiabilité standard, profit élevé).",
+              "effects": {
+                "production": 1000,
+                "profit": 147,
+                "reliability": 85
+              }
+            },
+            {
+              "id": 2,
+              "description": "Vendre des machines montées (coût +200$, fiabilité +10%, prix 597$).",
+              "effects": {
+                "cost": 200,
+                "reliability": 95,
+                "profit": 200,
+                "price": 597
+              }
+            }
+          ]
+        },
+        {
+          "date": "1976-06",
+          "type": "concurrentiel",
+          "title": "Concurrence de l'Apple I",
+          "description": "Apple lance l'Apple I avec un design plus moderne. L'Altair doit innover pour rester compétitif.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Baisser les prix à 350$ (-47$ de profit/unité).",
+              "effects": {
+                "price": 350,
+                "profit": 100
+              }
+            },
+            {
+              "id": 2,
+              "description": "Lancer un nouveau modèle avec bus S-100 amélioré (coût R&D: 500k$).",
+              "effects": {
+                "cost": 500000,
+                "reliability": 90,
+                "popularity": 80
+              }
+            }
+          ]
+        },
+        {
+          "date": "1977-03",
+          "type": "historique",
+          "title": "Amélioration de la gamme Altair",
+          "description": "Nouveaux composants disponibles pour l'Altair 8800. Opportunité d'améliorer la qualité.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Mettre à jour les composants (coût +50$/unité, fiabilité +15%).",
+              "effects": {
+                "cost": 50,
+                "reliability": 100
+              }
+            },
+            {
+              "id": 2,
+              "description": "Lancer une campagne marketing (coût: 200k$, popularité +20%).",
+              "effects": {
+                "cost": 200000,
+                "popularity": 90
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

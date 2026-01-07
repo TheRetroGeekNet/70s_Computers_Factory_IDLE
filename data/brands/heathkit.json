@@ -1,0 +1,40 @@
+{
+  "id": "heathkit",
+  "name": "Heathkit",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Heathkit_logo.svg/320px-Heathkit_logo.svg.png",
+  "description": "Spécialiste des kits électroniques, dont l'ordinateur H8 (1977).",
+  "machines": [
+    {
+      "id": "heathkit_h8",
+      "name": "Heathkit H8",
+      "year": 1977,
+      "price": 395,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Heathkit_H8.jpg/320px-Heathkit_H8.jpg",
+      "stats": {
+        "cost": 200,
+        "profit": 195,
+        "reliability": 75,
+        "popularity": 65,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-05",
+          "type": "historique",
+          "title": "Lancement du Heathkit H8",
+          "description": "Kit d'ordinateur basé sur le 8080, concurrent de l'Altair 8800.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 500 kits/mois pour les hobbyistes.",
+              "effects": {
+                "production": 500,
+                "profit": 195
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

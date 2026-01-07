@@ -1,0 +1,40 @@
+{
+  "id": "magnavox",
+  "name": "Magnavox",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Magnavox_logo.svg/320px-Magnavox_logo.svg.png",
+  "description": "Pionnier des consoles de jeu avec l'Odyssey (1972) et l'Odyssey² (1978).",
+  "machines": [
+    {
+      "id": "magnavox_odyssey2",
+      "name": "Magnavox Odyssey²",
+      "year": 1978,
+      "price": 199,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Magnavox_Odyssey2.jpg/320px-Magnavox_Odyssey2.jpg",
+      "stats": {
+        "cost": 100,
+        "profit": 99,
+        "reliability": 85,
+        "popularity": 80,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1978-11",
+          "type": "historique",
+          "title": "Lancement de l'Odyssey²",
+          "description": "Console de jeu avec clavier alphanumérique. Concurrence directe de l'Atari 2600.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 3000 unités/mois pour Noël (popularité +15%).",
+              "effects": {
+                "production": 3000,
+                "popularity": 95
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

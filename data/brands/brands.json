@@ -1,0 +1,837 @@
+[
+
+{
+  "id": "apple",
+  "name": "Apple",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/320px-Apple_logo_black.svg.png",
+  "description": "Marque innovante ciblant les éducateurs et les professionnels. Lancement de l'Apple I (1976) et II (1977).",
+  "machines": [
+    {
+      "id": "apple_i",
+      "name": "Apple I",
+      "year": 1976,
+      "price": 666,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Apple1.jpg/320px-Apple1.jpg",
+      "stats": {
+        "cost": 500,
+        "profit": 166,
+        "reliability": 80,
+        "popularity": 75,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1976-04",
+          "type": "historique",
+          "title": "Lancement de l'Apple I",
+          "description": "Premier ordinateur Apple, vendu 666$. Production limitée à 200 unités.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire les 200 unités en série limitée (profit maximal).",
+              "effects": {
+                "production": 200,
+                "profit": 166
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apple_ii",
+      "name": "Apple II",
+      "year": 1977,
+      "price": 1298,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Apple_II.jpg/320px-Apple_II.jpg",
+      "stats": {
+        "cost": 800,
+        "profit": 498,
+        "reliability": 90,
+        "popularity": 85,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-06",
+          "type": "historique",
+          "title": "Lancement de l'Apple II",
+          "description": "Succès immédiat avec son écran couleur et son boîtier en plastique. Prix: 1298$.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 5000 unités/mois pour les écoles (popularité +10%).",
+              "effects": {
+                "production": 5000,
+                "popularity": 95
+              }
+            },
+            {
+              "id": 2,
+              "description": "Ajouter un lecteur de disquette (coût R&D: 200k$, fiabilité +10%).",
+              "effects": {
+                "cost": 200000,
+                "reliability": 100
+              }
+            }
+          ]
+        },
+        {
+          "date": "1979-09",
+          "type": "concurrentiel",
+          "title": "Concurrence du TRS-80 Model III",
+          "description": "Tandy lance le Model III, plus moderne. Apple doit réagir pour maintenir sa position.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Baisser les prix de 15% (profit -75$).",
+              "effects": {
+                "profit": -75
+              }
+            },
+            {
+              "id": 2,
+              "description": "Lancer l'Apple II+ (coût R&D: 1M$, fiabilité +5%).",
+              "effects": {
+                "cost": 1000000,
+                "reliability": 95,
+                "popularity": 90
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "atari",
+  "name": "Atari",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Atari_logo.svg/320px-Atari_logo.svg.png",
+  "description": "Leader des consoles de jeu avec l'Atari 2600 (1977) et des ordinateurs comme l'Atari 800 (1979).",
+  "machines": [
+    {
+      "id": "atari_2600",
+      "name": "Atari 2600",
+      "year": 1977,
+      "price": 199,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Atari-2600-Wood-4Sw-Silver.jpg/320px-Atari-2600-Wood-4Sw-Silver.jpg",
+      "stats": {
+        "cost": 100,
+        "profit": 99,
+        "reliability": 90,
+        "popularity": 90,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-09",
+          "type": "historique",
+          "title": "Lancement de l'Atari 2600",
+          "description": "Première console grand public, vendue 199$. Succès immédiat avec Combat et Pong.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 10000 unités/mois pour Noël (popularité +15%).",
+              "effects": {
+                "production": 10000,
+                "popularity": 100
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atari_800",
+      "name": "Atari 800",
+      "year": 1979,
+      "price": 899,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Atari_800.jpg/320px-Atari_800.jpg",
+      "stats": {
+        "cost": 500,
+        "profit": 399,
+        "reliability": 85,
+        "popularity": 85,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1979-10",
+          "type": "historique",
+          "title": "Lancement de l'Atari 800",
+          "description": "Ordinateur familial avec 48 Ko de RAM et des graphismes couleur. Prix: 899$.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 2000 unités/mois pour les familles (popularité +10%).",
+              "effects": {
+                "production": 2000,
+                "popularity": 95
+              }
+            },
+            {
+              "id": 2,
+              "description": "Ajouter un modem (coût R&D: 80k$, popularité +5%).",
+              "effects": {
+                "cost": 80000,
+                "popularity": 90
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "commodore",
+  "name": "Commodore",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Commodore_logo.svg/320px-Commodore_logo.svg.png",
+  "description": "Leader des ordinateurs grand public avec des machines abordables comme le PET (1977) et le VIC-20 (1980).",
+  "machines": [
+    {
+      "id": "commodore_pet",
+      "name": "Commodore PET",
+      "year": 1977,
+      "price": 795,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Commodore_PET_2001.jpg/320px-Commodore_PET_2001.jpg",
+      "stats": {
+        "cost": 500,
+        "profit": 295,
+        "reliability": 85,
+        "popularity": 80,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-10",
+          "type": "historique",
+          "title": "Lancement du Commodore PET",
+          "description": "Premier ordinateur 'prêt à l'emploi' avec écran et clavier intégrés. Prix: 795$.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Cibler les écoles (500 unités/mois, popularité +5%).",
+              "effects": {
+                "production": 500,
+                "popularity": 85
+              }
+            },
+            {
+              "id": 2,
+              "description": "Améliorer la RAM à 8 Ko (coût R&D: 30k$, fiabilité +10%).",
+              "effects": {
+                "cost": 30000,
+                "reliability": 95
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodore_vic20",
+      "name": "Commodore VIC-20",
+      "year": 1980,
+      "price": 299,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Commodore_VIC-20.jpg/320px-Commodore_VIC-20.jpg",
+      "stats": {
+        "cost": 150,
+        "profit": 149,
+        "reliability": 80,
+        "popularity": 85,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1980-06",
+          "type": "historique",
+          "title": "Lancement du VIC-20",
+          "description": "Premier ordinateur à moins de 300$. Record de ventes: 1 million d'unités en un an.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 5000 unités/mois (popularité +10%).",
+              "effects": {
+                "production": 5000,
+                "popularity": 95
+              }
+            },
+            {
+              "id": 2,
+              "description": "Ajouter un modem (coût R&D: 50k$, fiabilité +5%).",
+              "effects": {
+                "cost": 50000,
+                "reliability": 85
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "exidy",
+  "name": "Exidy",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Exidy_logo.svg/320px-Exidy_logo.svg.png",
+  "description": "Fabricant de machines arcade et d'ordinateurs comme le Sorcerer (1978).",
+  "machines": [
+    {
+      "id": "exidy_sorcerer",
+      "name": "Exidy Sorcerer",
+      "year": 1978,
+      "price": 895,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Exidy_Sorcerer.jpg/320px-Exidy_Sorcerer.jpg",
+      "stats": {
+        "cost": 500,
+        "profit": 395,
+        "reliability": 80,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1978-06",
+          "type": "historique",
+          "title": "Lancement du Sorcerer",
+          "description": "Ordinateur basé sur le Z80, avec écran intégré et clavier professionnel.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Cibler les petites entreprises (500 unités/mois).",
+              "effects": {
+                "production": 500,
+                "popularity": 75
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "heathkit",
+  "name": "Heathkit",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Heathkit_logo.svg/320px-Heathkit_logo.svg.png",
+  "description": "Spécialiste des kits électroniques, dont l'ordinateur H8 (1977).",
+  "machines": [
+    {
+      "id": "heathkit_h8",
+      "name": "Heathkit H8",
+      "year": 1977,
+      "price": 395,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Heathkit_H8.jpg/320px-Heathkit_H8.jpg",
+      "stats": {
+        "cost": 200,
+        "profit": 195,
+        "reliability": 75,
+        "popularity": 65,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-05",
+          "type": "historique",
+          "title": "Lancement du Heathkit H8",
+          "description": "Kit d'ordinateur basé sur le 8080, concurrent de l'Altair 8800.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 500 kits/mois pour les hobbyistes.",
+              "effects": {
+                "production": 500,
+                "profit": 195
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "magnavox",
+  "name": "Magnavox",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Magnavox_logo.svg/320px-Magnavox_logo.svg.png",
+  "description": "Pionnier des consoles de jeu avec l'Odyssey (1972) et l'Odyssey² (1978).",
+  "machines": [
+    {
+      "id": "magnavox_odyssey2",
+      "name": "Magnavox Odyssey²",
+      "year": 1978,
+      "price": 199,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Magnavox_Odyssey2.jpg/320px-Magnavox_Odyssey2.jpg",
+      "stats": {
+        "cost": 100,
+        "profit": 99,
+        "reliability": 85,
+        "popularity": 80,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1978-11",
+          "type": "historique",
+          "title": "Lancement de l'Odyssey²",
+          "description": "Console de jeu avec clavier alphanumérique. Concurrence directe de l'Atari 2600.",
+              "choices": [
+                {
+                  "id": 1,
+                  "description": "Produire 3000 unités/mois pour Noël (popularité +15%).",
+                  "effects": {
+                    "production": 3000,
+                    "popularity": 95
+                  }
+                }
+              ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "mits",
+  "name": "MITS",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/MITS_Logo.svg/320px-MITS_Logo.svg.png",
+  "description": "Pionnier des micro-ordinateurs avec l'Altair 8800. Cible les hobbyistes et les ingénieurs. Innovations constantes dans les années 1970.",
+  "machines": [
+    {
+      "id": "altair_8800",
+      "name": "Altair 8800",
+      "year": 1975,
+      "price": 397,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Altair_8800_Computer.jpg/320px-Altair_8800_Computer.jpg",
+      "stats": {
+        "cost": 250,
+        "profit": 147,
+        "reliability": 85,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1975-01",
+          "type": "historique",
+          "title": "Lancement de l'Altair 8800",
+          "description": "Premier ordinateur personnel en kit. Prix révolutionnaire de 397$. Demande explosive parmi les hobbyistes.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 1000 kits/mois (fiabilité standard, profit élevé).",
+              "effects": {
+                "production": 1000,
+                "profit": 147,
+                "reliability": 85
+              }
+            },
+            {
+              "id": 2,
+              "description": "Vendre des machines montées (coût +200$, fiabilité +10%, prix 597$).",
+              "effects": {
+                "cost": 200,
+                "reliability": 95,
+                "profit": 200,
+                "price": 597
+              }
+            }
+          ]
+        },
+        {
+          "date": "1976-06",
+          "type": "concurrentiel",
+          "title": "Concurrence de l'Apple I",
+          "description": "Apple lance l'Apple I avec un design plus moderne. L'Altair doit innover pour rester compétitif.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Baisser les prix à 350$ (-47$ de profit/unité).",
+              "effects": {
+                "price": 350,
+                "profit": 100
+              }
+            },
+            {
+              "id": 2,
+              "description": "Lancer un nouveau modèle avec bus S-100 amélioré (coût R&D: 500k$).",
+              "effects": {
+                "cost": 500000,
+                "reliability": 90,
+                "popularity": 80
+              }
+            }
+          ]
+        },
+        {
+          "date": "1977-03",
+          "type": "historique",
+          "title": "Amélioration de la gamme Altair",
+          "description": "Nouveaux composants disponibles pour l'Altair 8800. Opportunité d'améliorer la qualité.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Mettre à jour les composants (coût +50$/unité, fiabilité +15%).",
+              "effects": {
+                "cost": 50,
+                "reliability": 100
+              }
+            },
+            {
+              "id": 2,
+              "description": "Lancer une campagne marketing (coût: 200k$, popularité +20%).",
+              "effects": {
+                "cost": 200000,
+                "popularity": 90
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "ohio_scientific",
+  "name": "Ohio Scientific",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ohio_Scientific_logo.svg/320px-Ohio_Scientific_logo.svg.png",
+  "description": "Fabricant du Challenger 1P (1977), ordinateur basé sur le 6502.",
+  "machines": [
+    {
+      "id": "challenger_1p",
+      "name": "Challenger 1P",
+      "year": 1977,
+      "price": 499,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Challenger_1P.jpg/320px-Challenger_1P.jpg",
+      "stats": {
+        "cost": 300,
+        "profit": 199,
+        "reliability": 80,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-11",
+          "type": "historique",
+          "title": "Lancement du Challenger 1P",
+          "description": "Ordinateur basé sur le 6502, concurrent du Commodore PET.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 500 unités/mois pour les écoles.",
+              "effects": {
+                "production": 500,
+                "popularity": 75
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "osborne",
+  "name": "Osborne",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Osborne_Computer_Corporation_logo.svg/320px-Osborne_Computer_Corporation_logo.svg.png",
+  "description": "Pionnier des ordinateurs portables avec l'Osborne 1 (1981, hors période 1970-1980).",
+  "machines": []
+},
+
+{
+  "id": "processor_tech",
+  "name": "Processor Technology",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Processor_Technology_logo.svg/320px-Processor_Technology_logo.svg.png",
+  "description": "Fabricant du Sol-20 (1977), concurrent direct de l'Altair 8800.",
+  "machines": [
+    {
+      "id": "processor_tech_sol20",
+      "name": "Sol-20",
+      "year": 1977,
+      "price": 1995,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sol-20.jpg/320px-Sol-20.jpg",
+      "stats": {
+        "cost": 1200,
+        "profit": 795,
+        "reliability": 85,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-06",
+          "type": "historique",
+          "title": "Lancement du Sol-20",
+          "description": "Ordinateur professionnel basé sur le S-100 bus, concurrent de l'Altair 8800.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 300 unités/mois pour les ingénieurs (profit élevé).",
+              "effects": {
+                "production": 300,
+                "profit": 795
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "sinclair",
+  "name": "Sinclair",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sinclair_Research_logo.svg/320px-Sinclair_Research_logo.svg.png",
+  "description": "Marque britannique innovante avec des machines low-cost comme le ZX80 (1980).",
+  "machines": [
+    {
+      "id": "sinclair_zx80",
+      "name": "Sinclair ZX80",
+      "year": 1980,
+      "price": 99,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sinclair_ZX80.jpg/320px-Sinclair_ZX80.jpg",
+      "stats": {
+        "cost": 50,
+        "profit": 49,
+        "reliability": 70,
+        "popularity": 75,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1980-01",
+          "type": "historique",
+          "title": "Lancement du ZX80",
+          "description": "Premier ordinateur à moins de 100£. Succès immédiat au Royaume-Uni.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 3000 unités/mois (popularité +15%).",
+              "effects": {
+                "production": 3000,
+                "popularity": 90
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "tandy",
+  "name": "Tandy",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tandy_Corporation_logo.svg/320px-Tandy_Corporation_logo.svg.png",
+  "description": "Marque grand public avec les TRS-80, vendus dans les magasins RadioShack. Modèles I (1977), II (1979), III (1980).",
+  "machines": [
+    {
+      "id": "trs80_model_i",
+      "name": "TRS-80 Model I",
+      "year": 1977,
+      "price": 599,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TRS-80_Model_I.jpg/320px-TRS-80_Model_I.jpg",
+      "stats": {
+        "cost": 350,
+        "profit": 249,
+        "reliability": 85,
+        "popularity": 80,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-08",
+          "type": "historique",
+          "title": "Lancement du TRS-80 Model I",
+          "description": "Premier ordinateur de Tandy, vendu 599$. Succès immédiat dans les magasins RadioShack.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 3000 unités/mois pour RadioShack (popularité +10%).",
+              "effects": {
+                "production": 3000,
+                "popularity": 90
+              }
+            },
+            {
+              "id": 2,
+              "description": "Ajouter une imprimante intégrée (coût R&D: 200k$, fiabilité +15%).",
+              "effects": {
+                "cost": 200000,
+                "reliability": 100
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trs80_model_ii",
+      "name": "TRS-80 Model II",
+      "year": 1979,
+      "price": 1299,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TRS-80_Model_II.jpg/320px-TRS-80_Model_II.jpg",
+      "stats": {
+        "cost": 800,
+        "profit": 499,
+        "reliability": 90,
+        "popularity": 85,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1979-05",
+          "type": "historique",
+          "title": "Lancement du TRS-80 Model II",
+          "description": "Version professionnelle avec écran intégré et 64 Ko de RAM. Prix: 1299$.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Cibler les entreprises (1000 unités/mois, profit élevé).",
+              "effects": {
+                "production": 1000,
+                "profit": 499
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "texas_instruments",
+  "name": "Texas Instruments",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Texas_Instruments_logo.svg/320px-Texas_Instruments_logo.svg.png",
+  "description": "Fabricant de calculatrices et microprocesseurs. Lancement du TI-99/4 (1979).",
+  "machines": [
+    {
+      "id": "ti_99_4",
+      "name": "TI-99/4",
+      "year": 1979,
+      "price": 1150,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TI-99_4A.jpg/320px-TI-99_4A.jpg",
+      "stats": {
+        "cost": 700,
+        "profit": 450,
+        "reliability": 80,
+        "popularity": 75,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1979-06",
+          "type": "historique",
+          "title": "Lancement du TI-99/4",
+          "description": "Ordinateur familial avec processeur 16-bit. Concurrence du TRS-80.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 2000 unités/mois pour les familles.",
+              "effects": {
+                "production": 2000,
+                "popularity": 80
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "vector_graphic",
+  "name": "Vector Graphic",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vector_Graphic_logo.svg/320px-Vector_Graphic_logo.svg.png",
+  "description": "Fabricant du Vector-1 (1977), compatible S-100 bus.",
+  "machines": [
+    {
+      "id": "vector_1",
+      "name": "Vector-1",
+      "year": 1977,
+      "price": 1295,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vector-1.jpg/320px-Vector-1.jpg",
+      "stats": {
+        "cost": 800,
+        "profit": 495,
+        "reliability": 85,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-09",
+          "type": "historique",
+          "title": "Lancement du Vector-1",
+          "description": "Ordinateur compatible S-100 bus, concurrent de l'Altair 8800.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 300 unités/mois pour les ingénieurs.",
+              "effects": {
+                "production": 300,
+                "profit": 495
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "id": "ibm",
+  "name": "IBM",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/IBM_logo.svg/320px-IBM_logo.svg.png",
+  "description": "Géant de l'informatique professionnelle. Lancement du IBM 5100 (1975).",
+  "machines": [
+    {
+      "id": "ibm_5100",
+      "name": "IBM 5100",
+      "year": 1975,
+      "price": 8975,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/IBM_5100.jpg/320px-IBM_5100.jpg",
+      "stats": {
+        "cost": 5000,
+        "profit": 3975,
+        "reliability": 95,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1975-09",
+          "type": "historique",
+          "title": "Lancement de l'IBM 5100",
+          "description": "Ordinateur portable professionnel, vendu 8975$. Cible les entreprises et les ingénieurs.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 500 unités/mois pour les entreprises (profit maximal).",
+              "effects": {
+                "production": 500,
+                "profit": 3975
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+]

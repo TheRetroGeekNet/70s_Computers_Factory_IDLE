@@ -1,0 +1,40 @@
+{
+  "id": "exidy",
+  "name": "Exidy",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Exidy_logo.svg/320px-Exidy_logo.svg.png",
+  "description": "Fabricant de machines arcade et d'ordinateurs comme le Sorcerer (1978).",
+  "machines": [
+    {
+      "id": "exidy_sorcerer",
+      "name": "Exidy Sorcerer",
+      "year": 1978,
+      "price": 895,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Exidy_Sorcerer.jpg/320px-Exidy_Sorcerer.jpg",
+      "stats": {
+        "cost": 500,
+        "profit": 395,
+        "reliability": 80,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1978-06",
+          "type": "historique",
+          "title": "Lancement du Sorcerer",
+          "description": "Ordinateur basé sur le Z80, avec écran intégré et clavier professionnel.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Cibler les petites entreprises (500 unités/mois).",
+              "effects": {
+                "production": 500,
+                "popularity": 75
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

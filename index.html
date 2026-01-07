@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>70's Computers Factory IDLE by TheRetroGeek</title>
+    <link rel="icon" href="data/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>🖥️ 70's Computers Factory IDLE</h1>
+            <h2>by TheRetroGeek</h2>
+        </header>
+
+        <!-- Panneau de statistiques principales simplifié -->
+        <div id="main-stats-panel">
+            <div class="stats-container">
+                <!-- PC fabriqués mis en valeur -->
+                <div class="stat-item magic-number highlighted" id="computers-display">
+                    <div class="stat-label">PC FABRIQUÉS</div>
+                    <div class="stat-value">0</div>
+                    <div class="number-animation"></div>
+                </div>
+
+                <!-- Argent -->
+                <div class="stat-item magic-number" id="cash-display">
+                    <div class="stat-label">ARGENT</div>
+                    <div class="stat-value">$1,000,000</div>
+                    <div class="number-animation"></div>
+                </div>
+
+                <!-- Date -->
+                <div class="date-display">
+                    <div class="date-item">
+                        <div class="date-label">ANNÉE</div>
+                        <div class="date-value" id="game-year">1970</div>
+                    </div>
+                    <div class="date-item">
+                        <div class="date-label">MOIS</div>
+                        <div class="date-value" id="game-month">Janvier</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div id="game-container">
+                <div id="computer-display">
+                    <div id="computer-screen">
+                        <div id="output-area"></div>
+                        <div id="input-area">
+                            <span>>_</span>
+                            <input type="text" id="command-input" autocomplete="off" autofocus />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side column avec uniquement le visualiseur de machines -->
+                <aside id="side-column">
+                    <div id="pc-panel">
+                        <h3>Machine Actuelle</h3>
+                        <div id="machine-visualizer">
+                            <div class="machine-info">
+                                <h3 id="machine-name">Sélectionnez une machine</h3>
+                                <p id="machine-description">Utilisez les boutons ci-dessous</p>
+                                <div class="ownership-indicator">
+                                    <div class="indicator-light" id="brand-owned-light"></div>
+                                    <span id="ownership-status">Marque: Non possédée</span>
+                                </div>
+                            </div>
+                            <div class="computer-screen">
+                                <img id="current-machine-image" src="data/images/computers/default.png" alt="Computer">
+                            </div>
+                            <div class="navigation-buttons">
+                                <div class="brand-nav">
+                                    <button id="prev-brand" class="nav-btn">← Marque</button>
+                                    <button id="next-brand" class="nav-btn">→ Marque</button>
+                                </div>
+                                <div class="machine-nav">
+                                    <button id="prev-machine" class="nav-btn">↑ Modèle</button>
+                                    <button id="next-machine" class="nav-btn">↓ Modèle</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2025 TheRetroGeek. All rights reserved.</p>
+        </footer>
+    </div>
+    <script type="module" src="scripts/script.js"></script>
+</body>
+</html>

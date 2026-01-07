@@ -1,0 +1,40 @@
+{
+  "id": "ibm",
+  "name": "IBM",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/IBM_logo.svg/320px-IBM_logo.svg.png",
+  "description": "Géant de l'informatique professionnelle. Lancement du IBM 5100 (1975).",
+  "machines": [
+    {
+      "id": "ibm_5100",
+      "name": "IBM 5100",
+      "year": 1975,
+      "price": 8975,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/IBM_5100.jpg/320px-IBM_5100.jpg",
+      "stats": {
+        "cost": 5000,
+        "profit": 3975,
+        "reliability": 95,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1975-09",
+          "type": "historique",
+          "title": "Lancement de l'IBM 5100",
+          "description": "Ordinateur portable professionnel, vendu 8975$. Cible les entreprises et les ingénieurs.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 500 unités/mois pour les entreprises (profit maximal).",
+              "effects": {
+                "production": 500,
+                "profit": 3975
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

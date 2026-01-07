@@ -1,0 +1,40 @@
+{
+  "id": "vector_graphic",
+  "name": "Vector Graphic",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vector_Graphic_logo.svg/320px-Vector_Graphic_logo.svg.png",
+  "description": "Fabricant du Vector-1 (1977), compatible S-100 bus.",
+  "machines": [
+    {
+      "id": "vector_1",
+      "name": "Vector-1",
+      "year": 1977,
+      "price": 1295,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vector-1.jpg/320px-Vector-1.jpg",
+      "stats": {
+        "cost": 800,
+        "profit": 495,
+        "reliability": 85,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-09",
+          "type": "historique",
+          "title": "Lancement du Vector-1",
+          "description": "Ordinateur compatible S-100 bus, concurrent de l'Altair 8800.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 300 unités/mois pour les ingénieurs.",
+              "effects": {
+                "production": 300,
+                "profit": 495
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

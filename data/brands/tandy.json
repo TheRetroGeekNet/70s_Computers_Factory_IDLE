@@ -1,0 +1,80 @@
+{
+  "id": "tandy",
+  "name": "Tandy",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tandy_Corporation_logo.svg/320px-Tandy_Corporation_logo.svg.png",
+  "description": "Marque grand public avec les TRS-80, vendus dans les magasins RadioShack. Modèles I (1977), II (1979), III (1980).",
+  "machines": [
+    {
+      "id": "trs80_model_i",
+      "name": "TRS-80 Model I",
+      "year": 1977,
+      "price": 599,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TRS-80_Model_I.jpg/320px-TRS-80_Model_I.jpg",
+      "stats": {
+        "cost": 350,
+        "profit": 249,
+        "reliability": 85,
+        "popularity": 80,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-08",
+          "type": "historique",
+          "title": "Lancement du TRS-80 Model I",
+          "description": "Premier ordinateur de Tandy, vendu 599$. Succès immédiat dans les magasins RadioShack.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 3000 unités/mois pour RadioShack (popularité +10%).",
+              "effects": {
+                "production": 3000,
+                "popularity": 90
+              }
+            },
+            {
+              "id": 2,
+              "description": "Ajouter une imprimante intégrée (coût R&D: 200k$, fiabilité +15%).",
+              "effects": {
+                "cost": 200000,
+                "reliability": 100
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trs80_model_ii",
+      "name": "TRS-80 Model II",
+      "year": 1979,
+      "price": 1299,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TRS-80_Model_II.jpg/320px-TRS-80_Model_II.jpg",
+      "stats": {
+        "cost": 800,
+        "profit": 499,
+        "reliability": 90,
+        "popularity": 85,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1979-05",
+          "type": "historique",
+          "title": "Lancement du TRS-80 Model II",
+          "description": "Version professionnelle avec écran intégré et 64 Ko de RAM. Prix: 1299$.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Cibler les entreprises (1000 unités/mois, profit élevé).",
+              "effects": {
+                "production": 1000,
+                "profit": 499
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

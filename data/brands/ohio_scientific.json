@@ -1,0 +1,40 @@
+{
+  "id": "ohio_scientific",
+  "name": "Ohio Scientific",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ohio_Scientific_logo.svg/320px-Ohio_Scientific_logo.svg.png",
+  "description": "Fabricant du Challenger 1P (1977), ordinateur basé sur le 6502.",
+  "machines": [
+    {
+      "id": "challenger_1p",
+      "name": "Challenger 1P",
+      "year": 1977,
+      "price": 499,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Challenger_1P.jpg/320px-Challenger_1P.jpg",
+      "stats": {
+        "cost": 300,
+        "profit": 199,
+        "reliability": 80,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-11",
+          "type": "historique",
+          "title": "Lancement du Challenger 1P",
+          "description": "Ordinateur basé sur le 6502, concurrent du Commodore PET.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 500 unités/mois pour les écoles.",
+              "effects": {
+                "production": 500,
+                "popularity": 75
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

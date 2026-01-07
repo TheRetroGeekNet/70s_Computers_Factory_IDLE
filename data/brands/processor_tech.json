@@ -1,0 +1,40 @@
+{
+  "id": "processor_tech",
+  "name": "Processor Technology",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Processor_Technology_logo.svg/320px-Processor_Technology_logo.svg.png",
+  "description": "Fabricant du Sol-20 (1977), concurrent direct de l'Altair 8800.",
+  "machines": [
+    {
+      "id": "processor_tech_sol20",
+      "name": "Sol-20",
+      "year": 1977,
+      "price": 1995,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sol-20.jpg/320px-Sol-20.jpg",
+      "stats": {
+        "cost": 1200,
+        "profit": 795,
+        "reliability": 85,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-06",
+          "type": "historique",
+          "title": "Lancement du Sol-20",
+          "description": "Ordinateur professionnel basé sur le S-100 bus, concurrent de l'Altair 8800.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 300 unités/mois pour les ingénieurs (profit élevé).",
+              "effects": {
+                "production": 300,
+                "profit": 795
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

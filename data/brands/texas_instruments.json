@@ -1,0 +1,40 @@
+{
+  "id": "texas_instruments",
+  "name": "Texas Instruments",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Texas_Instruments_logo.svg/320px-Texas_Instruments_logo.svg.png",
+  "description": "Fabricant de calculatrices et microprocesseurs. Lancement du TI-99/4 (1979).",
+  "machines": [
+    {
+      "id": "ti_99_4",
+      "name": "TI-99/4",
+      "year": 1979,
+      "price": 1150,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TI-99_4A.jpg/320px-TI-99_4A.jpg",
+      "stats": {
+        "cost": 700,
+        "profit": 450,
+        "reliability": 80,
+        "popularity": 75,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1979-06",
+          "type": "historique",
+          "title": "Lancement du TI-99/4",
+          "description": "Ordinateur familial avec processeur 16-bit. Concurrence du TRS-80.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 2000 unités/mois pour les familles.",
+              "effects": {
+                "production": 2000,
+                "popularity": 80
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

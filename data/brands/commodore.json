@@ -1,0 +1,99 @@
+{
+  "id": "commodore",
+  "name": "Commodore",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Commodore_Logo.svg/320px-Commodore_Logo.svg.png",
+  "description": "Commodore International était une entreprise américaine d'électronique qui a joué un rôle clé dans le développement de l'industrie informatique personnelle dans les années 1970 et 1980.",
+  "year": 1954,
+  "machines": [
+    {
+      "id": "commodore_pet",
+      "name": "Commodore PET",
+      "year": 1977,
+      "description": "Le premier ordinateur personnel de Commodore, avec clavier intégré et écran monochrome.",
+      "price": 795,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Commodore_PET_2001_Series-IMG_1559.jpg/320px-Commodore_PET_2001_Series-IMG_1559.jpg",
+      "stats": {
+        "cost": 400,
+        "profit": 395,
+        "reliability": 80,
+        "popularity": 70,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-06",
+          "type": "historique",
+          "title": "Lancement du Commodore PET",
+          "description": "Commodore lance son premier ordinateur personnel au Consumer Electronics Show de Chicago.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Investir massivement dans la production (coût: $200,000, profit +50%).",
+              "effects": {
+                "production": 1000,
+                "profit": 592.5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodore_64",
+      "name": "Commodore 64",
+      "year": 1982,
+      "description": "L'ordinateur personnel le plus vendu de tous les temps, avec des capacités graphiques et sonores révolutionnaires pour son époque.",
+      "price": 595,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Commodore64.jpg/320px-Commodore64.jpg",
+      "stats": {
+        "cost": 250,
+        "profit": 345,
+        "reliability": 90,
+        "popularity": 95,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1982-08",
+          "type": "historique",
+          "title": "Lancement du Commodore 64",
+          "description": "Commodore lance le C64, qui deviendra l'ordinateur le plus vendu de l'histoire.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire en masse (coût: $500,000, production +2000).",
+              "effects": {
+                "production": 2000,
+                "profit": 345
+              }
+            },
+            {
+              "id": 2,
+              "description": "Cibler le marché éducatif (profit +30%, popularité +10%).",
+              "effects": {
+                "production": 500,
+                "profit": 448.5,
+                "popularity": 105
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodore_vic20",
+      "name": "Commodore VIC-20",
+      "year": 1980,
+      "description": "Le premier ordinateur couleur à moins de $300, précurseur du Commodore 64.",
+      "price": 299,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Commodore_VIC-20_FL.jpg/320px-Commodore_VIC-20_FL.jpg",
+      "stats": {
+        "cost": 150,
+        "profit": 149,
+        "reliability": 75,
+        "popularity": 80,
+        "production": 0
+      }
+    }
+  ]
+}

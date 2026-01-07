@@ -1,0 +1,104 @@
+{
+  "id": "apple",
+  "name": "Apple",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/320px-Apple_logo_black.svg.png",
+  "description": "Marque innovante ciblant les éducateurs et les professionnels. Lancement de l'Apple I (1976) et II (1977).",
+  "machines": [
+    {
+      "id": "apple_i",
+      "name": "Apple I",
+      "year": 1976,
+      "price": 666,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Apple1.jpg/320px-Apple1.jpg",
+      "stats": {
+        "cost": 500,
+        "profit": 166,
+        "reliability": 80,
+        "popularity": 75,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1976-04",
+          "type": "historique",
+          "title": "Lancement de l'Apple I",
+          "description": "Premier ordinateur Apple, vendu 666$. Production limitée à 200 unités.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire les 200 unités en série limitée (profit maximal).",
+              "effects": {
+                "production": 200,
+                "profit": 166
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apple_ii",
+      "name": "Apple II",
+      "year": 1977,
+      "price": 1298,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Apple_II.jpg/320px-Apple_II.jpg",
+      "stats": {
+        "cost": 800,
+        "profit": 498,
+        "reliability": 90,
+        "popularity": 85,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1977-06",
+          "type": "historique",
+          "title": "Lancement de l'Apple II",
+          "description": "Succès immédiat avec son écran couleur et son boîtier en plastique. Prix: 1298$.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 5000 unités/mois pour les écoles (popularité +10%).",
+              "effects": {
+                "production": 5000,
+                "popularity": 95
+              }
+            },
+            {
+              "id": 2,
+              "description": "Ajouter un lecteur de disquette (coût R&D: 200k$, fiabilité +10%).",
+              "effects": {
+                "cost": 200000,
+                "reliability": 100
+              }
+            }
+          ]
+        },
+        {
+          "date": "1979-09",
+          "type": "concurrentiel",
+          "title": "Concurrence du TRS-80 Model III",
+          "description": "Tandy lance le Model III, plus moderne. Apple doit réagir pour maintenir sa position.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Baisser les prix de 15% (profit -75$).",
+              "effects": {
+                "profit": -75
+              }
+            },
+            {
+              "id": 2,
+              "description": "Lancer l'Apple II+ (coût R&D: 1M$, fiabilité +5%).",
+              "effects": {
+                "cost": 1000000,
+                "reliability": 95,
+                "popularity": 90
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

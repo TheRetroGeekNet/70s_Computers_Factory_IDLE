@@ -1,0 +1,40 @@
+{
+  "id": "sinclair",
+  "name": "Sinclair",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sinclair_Research_logo.svg/320px-Sinclair_Research_logo.svg.png",
+  "description": "Marque britannique innovante avec des machines low-cost comme le ZX80 (1980).",
+  "machines": [
+    {
+      "id": "sinclair_zx80",
+      "name": "Sinclair ZX80",
+      "year": 1980,
+      "price": 99,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sinclair_ZX80.jpg/320px-Sinclair_ZX80.jpg",
+      "stats": {
+        "cost": 50,
+        "profit": 49,
+        "reliability": 70,
+        "popularity": 75,
+        "production": 0
+      },
+      "events": [
+        {
+          "date": "1980-01",
+          "type": "historique",
+          "title": "Lancement du ZX80",
+          "description": "Premier ordinateur à moins de 100£. Succès immédiat au Royaume-Uni.",
+          "choices": [
+            {
+              "id": 1,
+              "description": "Produire 3000 unités/mois (popularité +15%).",
+              "effects": {
+                "production": 3000,
+                "popularity": 90
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
